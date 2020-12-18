@@ -1,0 +1,29 @@
+git init
+
+создаем файл .gitignore и прописываем в нем:
+*.sass
+/bin
+/admin
+/config
+
+Далее для добавления файлов в локальное хранилище:
+git add .
+git commit -m ''
+
+создание новой ветки и переход
+git branch test
+git checkout test
+
+создаем папку blog в atom и новые файл
+
+переходим в основную ветку
+git checkout master
+
+делаем привязку с github
+git remote add origin https://github.com/nnvorobev/front-end-test.git
+
+Загружаем основную ветку
+git push -u origin master
+
+вводим через терминал atom логин нажимаем enter
+пароль нажимаем enter
